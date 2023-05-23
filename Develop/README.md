@@ -21,7 +21,7 @@ Command-line application that dynamically generates a professional README.md fil
   ```
   ## Usage
   
-First clone the repo and from the command line CD into the directory.Once in the directory follow the install instructions and then run node index.js command.Please refer video demonstration for more information following the video link.
+First clone the repo and from the command line CD into the directory. Once in the directory follow the install instructions and then run node index.js command. 
 
 
   ## License
@@ -40,5 +40,5 @@ Email me if you wish to contribute
 
   ## Questions
  
- If you have any questions about the repo, open an issue or contact me directly at meera.mohanan@gmail.com. you can find more of my work at [https://github.com/Meera-Mohanan](https://github.com/https://github.com/Meera-Mohanan)
+ If you have any questions about the repo, open an issue or contact me directly at meera.mohanan@gmail.com. you can find more of my work at [Meera-Mohanan](https://github.com/Meera-Mohanan)
 
