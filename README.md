@@ -13,3 +13,4 @@ User is prompted to enter my GitHub username and email address which will be add
 This application also generates Table of Contents which allows user to click on the links in the Table of Contents to be taken to the corresponding section of the README.
 
 # Link to walkthrough video
+https://drive.google.com/file/d/1vICUbQX58ZsmCKfLQEw1E0vgh5N9bSBo/view
