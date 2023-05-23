@@ -64,18 +64,20 @@ const questions = [
     }
 ];
 
-// function to write README file
+// function to write README file,returns success string or an error message
 function writeToFile(fileName, data) {
-    return fs.writeFileSync(path.join(process.cwd(), fileName), data)
-    // use fs to sync, path after to join to current working directory then add file name and data //
+    fs.writeFile(fileName, data, (err) =>
+      err ?  err : 'Success!'
+    );
 }
-
-//function to initialize app
+//function to start the prompt and convert data into markdown syntax and write to file
 function init() {
-    inquirer.prompt(questions).then(function (responses) {
-        writeToFile("README.md", generateMarkdown({ ...responses }))
-        //inq use prompt (built in) questions - THEN pipe to responses, write a file and data is used to generate markdown git s\
-    })
+    inquirer
+    .prompt(questions)
+    .then((response) => {
+        data = generateMarkdown(response);
+        writeToFile('README.md', data);
+    });
 }
 // function call to initialize app
 init();
