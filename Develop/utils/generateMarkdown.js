@@ -1,13 +1,13 @@
 // renders license badge
 function renderLicenseBadge(license) {
-  if (!license){
+  if (!license) {
     return '';
   }
-  return  renderLicenseSection(license)
+  return renderLicenseSection(license)
 }
 // retrieves url to license badge
 function renderLicenseLink(license) {
-  return license ? `https://img.shields.io/badge/license-${license}-blue`: '';
+  return license ? `https://img.shields.io/badge/license-${license}-blue` : '';
 }
 // takes data from user response and formats into a README format
 function generateMarkdown(data) {
