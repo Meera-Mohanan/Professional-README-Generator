@@ -28,17 +28,17 @@ const questions = [
         name: 'license'
     },
 
-    {
-        type: 'input',
-        message: "What command should be run to install dependencies?",
-        name: 'install'
-    },
+   // {
+    //    type: 'input',
+     //   message: "What command should be run to install dependencies?",
+    //    name: 'install'
+   // },
 
-    {
-        type: 'input',
-        message: "what command should be run to run tests?",
-        name: 'tests'
-    },
+   // {
+   //     type: 'input',
+    //    message: "what command should be run to run tests?",
+    //    name: 'tests'
+   //  },
 
     {
         type: 'input',

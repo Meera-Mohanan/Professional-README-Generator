@@ -1,9 +1,9 @@
-# Professional README Generator
+# SVG Logo Maker
   ![MIT license](https://img.shields.io/badge/license-MIT-blue)
   ## Description 
   
   
-Command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package
+Node.js command-line application that takes in user input to generate a logo and save it as an SVG file. The application prompts the user to select a color and shape, provide text for the logo, and save the generated SVG to a .svg file.
 
 
   ## Table of Contents
@@ -17,11 +17,11 @@ Command-line application that dynamically generates a professional README.md fil
   ## Installation
   To install necessary dependencies, run the following command:
   ```
-  npm i
+  undefined
   ```
   ## Usage
   
-First clone the repo and from the command line CD into the directory. Once in the directory follow the install instructions and then run node index.js command. 
+Change directories to your new project folder in the terminal. Invoke the application by typing "node index.js" or by typing the script "npm start" in the terminal's command line. You will be asked a series of questions before your logo is generated. If you do not enter a valid color keyword or hexadecimal number, you will be prompted to try again. If your text contains more than 3 characters, you will be prompted to try again. Once all prompts have been answered with accepted values, your new logo will be generated with the file name 'logo.svg' in the 'examples' folder. Refer back to the video posted in the description as needed.
 
 
   ## License
@@ -35,7 +35,7 @@ Email me if you wish to contribute
   ## Tests
   To run test, run the following command:
   ```
-  npm test
+  undefined
   ```
 
   ## Questions
